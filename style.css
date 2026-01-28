@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+/* Cart container */
+.myCart {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+/* Each option box */
+.options {
+    display: flex;
+    gap: 12px;
+    border: 2px solid #ddd;
+    padding: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+}
+
+/* Radio column */
+.col1 {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 4px;
+}
+
+/* Middle content */
+.col2 {
+    flex: 1;
+}
+
+.offer {
+    background: #FF6B82;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 6px;
+    margin-left: 6px;
+}
+
+/* Product details */
+.product-details {
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.product-details p {
+    margin: 0 0 4px;
+    font-size: 13px;
+}
+
+select {
+    width: 80px;
+    padding: 4px;
+}
+
+/* Price column */
+.col3 {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.deleted {
+    color: #999;
+    font-size: 13px;
+}
+
+/* Footer */
+.footer {
+    max-width: 420px;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Footer text row */
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text p {
+    margin: 0 15px;
+}
+
+/* Free delivery */
+.free-delivery {
+    color: #FF6B82;
+    font-weight: 600;
+}
+
+/* Total amount */
+.total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Button */
+.add-cart {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #FF6B82;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hiding complete info */
+.product-details {
+    display: none;
+}
+
+/*radio button's background */
+.unit-radio:checked{
+    accent-color: #FF6B82;
+}
