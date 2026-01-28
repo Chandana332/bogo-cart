@@ -10,7 +10,7 @@ radios.forEach((radio, index) => {
             option.querySelector(".product-details").style.display = "none";
             option.style.border = "2px solid #ddd";
             option.style.backgroundColor = "#fff";
-            option.style.borderRadius = "none";
+            option.style.borderRadius = "0px";
         });
 
         // Show selected option's details
